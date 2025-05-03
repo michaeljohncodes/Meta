@@ -197,7 +197,7 @@ header{
     min-width:50%;
     object-fit:cover;
 }
-.device_advert_box img{
+.main_image img{
     width:100%;
     border-radius: 40px;
     object-fit: cover;
@@ -600,7 +600,7 @@ footer{
         position: relative;
         width: 100%;
     }
-    .device_advert_box img{
+    .main_image img{
         width:100%;
         border-radius: 40px;
     }
@@ -1003,26 +1003,37 @@ footer{
     }
     .shopheading{
         text-align: center;
-        width: 100%;
+        width: 80%;
         margin-inline: auto;
     }
-    
+    .shopheading h1{
+        font-size:25px;
+        font-weight: 600;
+    }
     .device_main_container{
         /* background-color: red; */
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-width: 100%;
-        gap: 10px;
+        width: 100%;
+        gap: 100px;
+    }
+    .device_advert_column{
+        /* background-color: #0050B3; */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
     }
     .device_advert_box{
         /* background-color: yellow; */
         position: relative;
         width: 100%;
     }
-    .device_advert_box img{
+    .main_image img{
         width:100%;
-        border-radius: 40px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
     .device{
         position: absolute;
@@ -1030,7 +1041,7 @@ footer{
         left:20px ;
     }
     .device img{
-        width: 40%;
+        width: 60%;
     }
     .device_writeup{
         display: flex;
@@ -1042,13 +1053,13 @@ footer{
         margin-top: 80px;
     }
     .device_writeup h1{
-        font-weight: 500;
+        font-weight: 600;
         width: 100%;
-        font-size:30px;
+        font-size:20px;
     }
     .device_writeup p{
         font-weight: 500;
-        width:100%;
+        width:70%;
         font-size: smaller;
     }
     .device_writeup a{
