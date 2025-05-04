@@ -1092,13 +1092,14 @@ footer{
         width: 80%;
     }
     .connect_header h1{
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 500;
     }
     .connect_link{
         display: flex;
+        flex-direction: column;
         justify-content:space-between;
-        gap: 20px;
+        gap: 10px;
     }
     .connect_link a{
         color: white;
