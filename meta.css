@@ -1213,7 +1213,7 @@ footer{
     }
     .leadershiptext h1{
         font-size:25px ;
-        font-weight: 100;
+        font-weight: 300;
     }
     .leadershiptext p{
         font-size: 15px ;
@@ -1227,6 +1227,7 @@ footer{
         padding: 10px 25px;
         border-radius: 25px;
         width: fit-content;
+        font-size:smaller;
     }
 
 
