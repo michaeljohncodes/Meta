@@ -438,7 +438,12 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: left;
+    gap: 40px;
     margin-top: 40px;
+}
+.icon_links img{
+    margin: 0px 20px 0px 0px;
+    width:7%;
 }
 .footer_logo img{
     width:30%;
@@ -835,7 +840,7 @@ footer{
         color:rgb(2, 69, 107);
         padding: 0px 40px 20px;
         width: 100%;
-        margin-bottom: 0px;
+        margin: 100px 0px 50px;
         font-size: smaller;
     }
     .footer_lang a{
@@ -1139,7 +1144,7 @@ footer{
         width: 100%;
         text-align: left;
     }
-    }
+    
     .information_text h1{
         font-size:25px;
     }
@@ -1240,10 +1245,15 @@ footer{
         /* margin-inline: auto; */
     }
     .footercontent{
+        /* background-color: red; */
         width: 100%;
-        /* height: 900px; */
+        height: fit-content;
         display: flex;
-        flex-direction: column;
+        align-items: top;
+        justify-content:space-between;
+        gap: 50px;
+        padding: 10px 20px 10px;
+        margin-inline: auto;
     }
     .footer_icons{
         /* background-color: rgb(233, 173, 173); */
@@ -1252,7 +1262,7 @@ footer{
         flex-direction: column;
         justify-content: left;
         gap: 30px;
-        margin-top: 40px;
+        margin-top: 40px 0px 10px;
     }
     .footer_logo img{
         width:30%;
@@ -1265,31 +1275,36 @@ footer{
         /* background-color: rgb(226, 167, 167); */
         width:100%;
         display:flex;
-        gap: 50px;
+        flex-direction: column;
+        gap: 5px;
         font-size: smaller;
+        margin-top: 0px;
     }
     .footer_text_links a{
         text-decoration: none;
         color: rgb(2, 69, 107);
     }
     .footer_text_links h3{
-        margin-top: 40px;
+        margin-top: 10px;
         color: rgb(2, 69, 107);
     }
     .footer_text_links_column{
         display: flex;
     }
+    .footer_text_links_column a{
+        display:none;
+    }
 
     .footer_lang {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 20px;
         justify-content: left;
         align-items: top;
         color:rgb(2, 69, 107);
-        padding: 0px 40px 20px;
+        padding: 0px 20px;
+        margin: 50px 0px 10px;
         width: 100%;
-        margin-bottom: 0px;
         font-size: smaller;
     }
     .footer_lang a{
