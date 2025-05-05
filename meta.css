@@ -1139,6 +1139,14 @@ footer{
         width: 100%;
         text-align: left;
     }
+    }
+    .information_text h1{
+        font-size:25px;
+    }
+    .information_text p{
+        font-size:15px;
+        line-height: 20px;
+    }
     .information_tabs{
         gap: 20px;
         width: 100%;
@@ -1150,7 +1158,7 @@ footer{
         align-items: center;
         justify-content:space-between;
         border-radius: 20px;
-        padding: 10px;
+        padding: 30px 20px;
         min-width:100%;
     }
     .information_tabs_singles_image{
@@ -1167,7 +1175,7 @@ footer{
         width: 100%;
     }
 
-    .information_tabs_singles_text h3 {
+    .information_tabs_singles_text h3{
         margin: 10px 0px;
     }
 
@@ -1203,6 +1211,14 @@ footer{
         width: 90%;
         line-height: 25px;
     }
+    .leadershiptext h1{
+        font-size:25px ;
+        font-weight: 100;
+    }
+    .leadershiptext p{
+        font-size: 15px ;
+        font-weight:lighter;
+    }
     .leadershiptext a{
         color: white;
         text-align: center;
@@ -1237,7 +1253,7 @@ footer{
         margin-top: 40px;
     }
     .footer_logo img{
-        width:20%;
+        width:30%;
     }
     .footer_text_links{
         /* background-color: rgb(226, 167, 167); */
